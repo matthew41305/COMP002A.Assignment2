@@ -20,18 +20,23 @@ console.log(3 * 8 + 2); // Out: 26
 
 // 5. Write code to output the result of the comparison:
 // 5 is less than 10.
-console.log(3 * 8 + 2);
+console.log(3 * 8 + 2); // Out: true
 
 // 6. Write code to output the result of the comparison:
 // 10 is greater than 5.
+console.log(5 < 10); // Out: true
 
 // 7. Write code to output the result of the comparison:
 // "Apples" is NOT equal to "Oranges"
+console.log("Apples" !== "Oranges"); // Out: True
 
 // 8. Write code to output the result of the comparison:
 // 10 * 10 is greater than 50 AND 5 * 5 is less than 50
+console.log((10 * 10 > 50 ) && (5 * 5 <50)); //Out: True
 
 // 9. Write code to output the result of the comparison:
 // 1 + 2 is greater than 5 OR 1 * 10 is greater than 5
+console.log((1 +2 > 5) || ( 1 * 10 > 5)); // Out: True
 
 // 10. Write code that demonstrates an automatic type conversion as shown in Chapter 01.
+console.log("5" * 2); // Out: 10 and the string 5 gets turned into a number 5
